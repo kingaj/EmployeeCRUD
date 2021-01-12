@@ -21,13 +21,15 @@ CREATE TABLE `managementdb`.`tbl_employee` (
 # Rest Api include
 
 
-for get all employee (Request GET)
+1) for get all employee (Request GET)
 
  - http://localhost:8080/employees
 
- add image
+2) for get all employee (Request GET)
 
-for save employee (Request POST)
+ - http://localhost:8080/employee/{employee id} // without curly braces
+
+3) for save employee (Request POST)
 
  - http://localhost:8080/employee
 
@@ -41,9 +43,9 @@ for save employee (Request POST)
 	"address": "Unknown"
 	}
 
-	add image
 
-for update employee (Request PUT)
+
+4) for update employee (Request PUT)
 
  - http://localhost:8080/employee
 
@@ -58,8 +60,7 @@ for update employee (Request PUT)
 	"address": "Unknown"
 	}
 
-	add image
 
-for delete employee (Request DELETE)
+5) for delete employee (Request DELETE)
 
 http://localhost:8080/employee/{employee id} // without curly braces
