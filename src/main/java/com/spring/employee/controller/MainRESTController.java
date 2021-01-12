@@ -23,7 +23,7 @@ public class MainRESTController {
     @RequestMapping("/")
     @ResponseBody
     public String welcome() {
-        return "Welcome to Employee CRUD<b> Develop By Ajay.</b>";
+        return "Welcome to Employee CRUD<b> Developed By Ajay.</b>";
     }
 
     @RequestMapping(value = "/employees",
